@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LA PIZZERIA CERTUS</title>
+</head>
+<style>
+    body{
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        background-color: #e74c3c;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+    }
+    h1{
+        margin: 0 ;
+    }
+    nav{
+        text-align: center;
+        margin-top: 10px;
+    }
+    nav a{
+        margin: 0 15px;
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+    }
+    nav a.hover{
+        color: #f1c40f;
+    }
+    .pizza-item{
+        background-color: white;
+        padding: 20px;
+        margin: 0 10px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgb(0, 0, 0, 0.5);
+        width: 250px;
+        text-align: center;
+    }
+    .pizza-item img{
+        width: 100%;
+        border-radius: 8px;
+    }
+    .pizza-item h3{
+        margin: 10px 0;
+    }
+    .pizza-item p{
+        color: #7f8c8d;
+    }
+    footer{
+        background-color: #2c3e58;
+        color: white;
+        text-align: center;
+        padding: 15px 0;
+        margin-top: 40px;
+    }
+    section{
+        display: flex;
+        justify-content: space-around;
+        margin: 40px 0;
+        flex-wrap: wrap;
+    }
+
+</style>
+<body>
+    <header>
+        <h1>LA PIZZERÍA - CERTUS</h1>
+        <hr>
+
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Menú</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </header>
+    
+    <section class="menu">
+        <div class="pizza-item">
+            <img src="../clase2/images/pizza1.jpg" alt="pizza napolitana">
+            <h3>Pizza Napolitaba</h3>
+            <p>Tomate, Mozzarella y albahaca</p>
+            <p><strong>Precio $7.99</strong></p>
+        </div>
+
+        <div class="pizza-item">
+            <img src="../clase2/images/pizza2.jpg" alt="pizza hawaiana">
+            <h3>Pizza Hawaiana</h3>
+            <p>Tomate, Mozzarella y albahaca</p>
+            <p><strong>Precio $7.99</strong></p>
+        </div>
+
+        <div class="pizza-item">
+            <img src="../clase2/images/pizza3.jpg" alt="pizza americana">
+            <h3>Pizza americana</h3>
+            <p>Tomate, Mozzarella y albahaca</p>
+            <p><strong>Precio $7.99</strong></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 La Pizzería - CERTUS | Todos los Derechos Rersevados</p>
+    </footer>
+</body>
+</html>
